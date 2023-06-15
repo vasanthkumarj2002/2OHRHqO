@@ -1,0 +1,29 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-clicked {
+  background-color: red;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: #ffffff;
+  font-size: 20px;
+  color: #000000;
+}
+.empty{
+  height: 20vh;
+}
